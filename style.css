@@ -140,3 +140,9 @@ span:nth-child(12) {
   left: 77px;
   transform: rotate(330deg);
 }
+
+@media (max-width: 1000px) {
+  .container{
+    transform: scale(1);
+  }
+}
